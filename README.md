@@ -19,7 +19,10 @@ As a cookbook you can find the demo notebook at the repo. But here the short def
 
 
 * DataClass has the required basic pre process and load operations for you. All you have to do is create the required folder path as shown below.
+
+  
 ![Folder path](media/path.png)
+
 
 * UNet class has the model architecture with the training-testing functions as well as the required loss functions namely dice score.
 
