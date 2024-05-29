@@ -119,26 +119,8 @@ class UNet:
                 callbacks=[model_checkpoint])
       return history
 
-      #Normalization of the test set
 
-      print('-'*30)
-      print('Loading saved weights...')
-      print('-'*30)
-      model.load_weights('weights.h5')
-
-      pred_dir = 'preds'
-      if not os.path.exists(pred_dir):
-          os.mkdir(pred_dir)
-
-      #Saving our predictions in the directory 'preds'
-      plt.plot(history.history['dice_coef'])
-      plt.plot(history.history['val_dice_coef'])
-      plt.title('Model dice coeff')
-      plt.ylabel('Dice coeff')
-      plt.xlabel('Epoch')
-      plt.legend(['Train', 'Test'], loc='upper left')
-      plt.savefig('resultplots.jpg')
-      return history
+      
     else:
 
       kf = KFold(n_splits=kfold, shuffle=True)
