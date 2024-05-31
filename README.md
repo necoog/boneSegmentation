@@ -39,3 +39,15 @@ I saved the best model for each fold and here the some results for a single test
 
 
 
+### Potential Improvement Steps
+* Keep training more epochs until plateu and use lr reduction to reach better results at plateu.
+* Increasing the data with using data augmentation tools.
+* Optimizing the hyperparameters and constants.
+* Using input images not only gray scale but with their channels and bigger sized shapes.
+
+
+Some optimization tries here :
+
+With adding channels into action with shape of : (256,256,3)  for 100 epochs :
+![Test](media/test2.png)
+
