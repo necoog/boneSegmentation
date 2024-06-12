@@ -82,9 +82,17 @@ Above optimized  :
 ![Test](media/__results___13_2.png)
 
 Above optimized and the best one :
+
 ![Test](media/__results___13_1.png)
 
-And its plot :
+And its plot that has avg 9 haussdorf :
+
 ![Test](media/bestplot.png)
 
-j
+
+And its validation dice loss :
+
+![Test](media/val_dice_coef.png)
+
+
+
