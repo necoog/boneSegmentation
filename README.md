@@ -67,16 +67,15 @@ With 2k inages : (256,256,3)  for 100 epochs :
 
 
 With 2k inages : (512,512)  for 100 epochs :
-![Test](media/2k data 512,512 gray.png)
+![Test](media/2kdata512,512gray.png)
 
 With 2k inages : (128,128)  for 100 epochs :
-![Test](media/128,128 2k data gray.png)
+![Test](media/128,1282kdatagray.png)
 
 With 1k inages : (512,512) with first combined loss for 100 epochs :
-![Test](media/1k, 512,512 gray scale , focal+dice loss.png)
+![Test](media/1k,512,512grayscalefocal+diceloss.png)
 
-With 1k inages : (512,512) with first combined loss for 100 epochs :
-![Test](media/1k, 512,512 gray scale , focal+dice loss.png)
+
 
 Above optimized  :
 ![Test](media/__results___13_2.png)
